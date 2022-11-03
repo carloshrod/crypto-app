@@ -1,0 +1,17 @@
+.filter {
+    & input {
+        width: 400px;
+        max-width: 90%;
+
+        &:hover {
+            border-color: var(--dark-color);
+            box-shadow: 0 0 0 3px rgba(3, 3, 3, 0.2);
+        }
+
+        &:focus {
+            border-color: var(--dark-color);
+            box-shadow: 0 0 0 3px rgba(3, 3, 3, 0.2);
+        }
+
+    }
+}

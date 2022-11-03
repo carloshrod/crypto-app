@@ -1,0 +1,15 @@
+html, body {
+    font-family: var(--font-poppins);
+    background-color: var(--bg-color);
+    color:  var(--primary-color);
+}
+
+th, td {
+    text-align: center;
+}
+
+i {
+    &:hover {
+        cursor: pointer;
+    }
+}

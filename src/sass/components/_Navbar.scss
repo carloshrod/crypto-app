@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+
+    &__logo {
+        font-size: 2rem;
+    }
+
+    &__login {
+        border: 1px solid var(--primary-color);
+        border-radius: 5px;
+        padding: 0.5rem 2rem;
+        
+        &:hover {
+            zoom: 1.01;
+            cursor: pointer;
+        }
+    }
+
+    &__user-info {
+        border: 1px solid var(--primary-color);
+        border-radius: 5px;
+        padding: 0.5rem 2rem;
+    }
+}
