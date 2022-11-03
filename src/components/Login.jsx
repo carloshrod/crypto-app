@@ -24,7 +24,11 @@ function Login({ user, setUser, onClick }) {
                     onChange={handleChange}
                 />
                 <div className="text-center">
-                    <button className="btn btn-dark" onClick={onClick} >
+                    <button
+                        className="btn btn-dark"
+                        data-bs-dismiss="modal"
+                        onClick={onClick}
+                    >
                         Submit
                     </button>
                 </div>
